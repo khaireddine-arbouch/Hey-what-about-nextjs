@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Lusitana:wght@400;700&display=swap');
+
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+:root {
+  --font-poppins: 'Poppins', sans-serif;
+  --font-lusitana: 'Lusitana', serif;
+}
+
+.font-poppins {
+  font-family: var(--font-poppins);
+}
+
+.font-lusitana {
+  font-family: var(--font-lusitana);
+}
